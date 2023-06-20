@@ -1,0 +1,23 @@
+.presentacion__link{
+  text-decoration: none;
+  font-size: 1.2rem;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background: #2F2A40 ;
+  color: #59E881 ;
+  border-radius: 50%;
+  
+}
+
+@media screen and (min-width: 1024px){
+  .presentacion__link{
+    font-size: 1.8rem;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    
+
+  }
+}

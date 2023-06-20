@@ -1,0 +1,15 @@
+.formacion__img img{
+    width: 90   ;
+    height: 80px;
+    margin: 0 auto;
+    background-color: #DDDAE8  ;
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+    .formacion__img img{
+        width: 130px;
+    }
+}

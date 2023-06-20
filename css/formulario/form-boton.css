@@ -1,0 +1,21 @@
+.form__boton{
+    width: 50%;
+    height: 50px;
+    font-family: 'Raleway' , sans-serif ;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #262335 ;
+    border: none;
+   background-color: #59E881 ;
+   margin-bottom: 2rem;
+}
+
+.form__boton:hover{
+    opacity: 0.5;
+}
+
+@media screen and (min-width: 1024px) {
+    .form__boton{
+        margin-bottom: 0;
+    }
+}

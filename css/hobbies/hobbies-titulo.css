@@ -1,0 +1,15 @@
+.hobbies__titulo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 2rem 0rem ;
+    color: #59E881 ;
+    
+}
+
+@media screen and (min-width: 1024px){
+    .hobbies__titulo{
+      
+        padding-top: 5rem;
+    }
+}

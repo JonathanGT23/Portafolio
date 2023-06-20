@@ -1,0 +1,17 @@
+.form__img{
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+    
+    .form__img{
+        display: block;
+        margin-left: 5rem;
+        margin-right: .5rem;
+        width: 520px;
+        height: 600px;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px -5px rbga(0 0 0 / 30%);
+        border: 2.5px solid #59E881 ;
+    }
+}

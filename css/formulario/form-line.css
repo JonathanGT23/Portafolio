@@ -1,0 +1,11 @@
+.form__line{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 102%;
+    height: 1.5mm;
+    background-color: #59E881  ;
+    transform: scale(0);
+    transform: left bottom ;
+    transition: trasform .4s;
+}

@@ -1,0 +1,13 @@
+.sobre__titulo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+    color: #59E881 ;
+}
+
+@media screen and (min-width: 1024px){
+    .sobre__titulo{
+      
+       padding-top: 3rem;
+    }
+}

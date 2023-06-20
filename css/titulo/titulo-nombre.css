@@ -1,0 +1,10 @@
+.titulo__nombre{
+    font-size: 1rem;
+    margin-right: 0rem;
+}
+
+.titulo__nombre:hover{
+
+    text-decoration: underline;
+    color: #59E881 ;
+}

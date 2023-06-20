@@ -1,0 +1,16 @@
+.hobbies__container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .hobbies__container{
+        
+        padding: 2rem 5rem 2rem 2rem;
+        flex-wrap: nowrap;
+    }
+    
+    
+}

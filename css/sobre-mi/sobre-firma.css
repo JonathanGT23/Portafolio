@@ -1,0 +1,16 @@
+.sobre__firma{
+    
+    height: 100px;
+    background-image: url(/img/signature.png);
+    background-repeat: no-repeat;
+    background-position: left;
+   
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .sobre__firma{
+        height: 100px;
+    }
+
+}

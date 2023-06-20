@@ -1,0 +1,11 @@
+.skills__img img{
+    width: 55px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1024px) {
+    .skills__img img{
+        width: 100px;
+        height: 100px;
+    }
+}

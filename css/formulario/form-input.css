@@ -1,0 +1,18 @@
+.form__input{
+    width: 100%;
+    background: none;
+    color: #59E881  ;
+    font-size: 1rem;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #DDDAE8 ;
+    font-family: 'Raleway' , sans-serif ;
+}
+
+.form__input:-webkit-autofill,
+.form__input:-webkit-autofill:hover, 
+.form__input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px #2F2A40  inset;
+    -webkit-text-fill-color: #fff;
+}

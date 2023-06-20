@@ -1,0 +1,20 @@
+.proyecto__imagen{
+    width: 100%;
+   
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rbga(0 0 0 / 30%);
+    border: 2.5px solid #59E881 ;
+
+    
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .proyecto__imagen{
+        width:50%;
+       
+        
+    }
+
+    
+}

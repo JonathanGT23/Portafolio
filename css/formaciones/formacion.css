@@ -1,0 +1,27 @@
+.formacion{
+    background-color: #262335 ;
+    font-family: 'Raleway' , sans-serif ;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem 1rem;
+}
+
+.formacion li{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+    .formacion{
+        padding: 1rem 5rem;
+        
+    }
+    
+  
+}

@@ -1,0 +1,15 @@
+.presentacion__redes{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    color: #59E881 ;
+}
+
+@media screen and (min-width: 1024px){
+    .presentacion__redes{
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        padding-top: 1rem;
+    }
+}

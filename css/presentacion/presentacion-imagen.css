@@ -1,0 +1,38 @@
+
+
+
+.presentacion__imagen{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    
+    margin-bottom: 1rem;
+   border: 2.5px solid #59E881 ;
+}
+
+.presentacion__imagen:hover {
+    transform: scale(1.01) ;
+    transition: 1s all;
+}
+
+@media screen and (min-width: 768px) {
+    .presentacion__imagen{
+        width: 180px;
+        height: 180px;
+        margin-left: 1rem;
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .presentacion__imagen{
+        
+        width: 250px;
+        height: 250px;
+        margin-left: 1rem;
+        
+    }
+
+   
+}
+

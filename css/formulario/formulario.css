@@ -1,0 +1,13 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: #262335 ;
+}
+
+@media screen and (min-width:1024px) {
+    .formulario{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}

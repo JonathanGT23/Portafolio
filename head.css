@@ -1,0 +1,27 @@
+.head{
+    background-color: #262335 ;
+    color: #fff;
+    
+    font-family: 'Raleway' , sans-serif ;
+    width: 100%;
+    box-sizing: border-box;
+    
+    display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding: 1rem 1rem;
+   
+   position: fixed;
+   z-index: 99999;
+}
+
+
+
+@media screen and (min-width: 1024px){
+    .head{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 5rem;
+    }
+}

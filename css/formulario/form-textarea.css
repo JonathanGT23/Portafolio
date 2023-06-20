@@ -1,0 +1,5 @@
+.form__textarea{
+    resize: none;
+    
+    outline: none;
+}

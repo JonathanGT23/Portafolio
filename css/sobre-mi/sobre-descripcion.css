@@ -1,0 +1,23 @@
+.sobre__descripcion{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.sobre__descripcion-bibliografia{
+    padding-top: 1rem;
+    font-weight: 400;
+    color: #DDDAE8;
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .sobre__descripcion-bibliografia{
+        width: 50%;
+    }
+
+    .sobre__descripcion{
+        width: 50%;
+    }
+
+}

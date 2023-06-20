@@ -1,0 +1,8 @@
+.titulo{
+    display: flex;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}

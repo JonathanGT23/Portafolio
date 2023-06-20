@@ -1,0 +1,32 @@
+.proyecto__item{
+    padding-top: 3rem;
+  
+}
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+    
+    .proyecto__item-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+   
+    }
+
+    .proyecto__item-2{
+        display: flex;
+        align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+        
+
+        padding-top: 5rem;
+       
+    }
+
+
+}

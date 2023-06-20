@@ -1,0 +1,17 @@
+.proyecto{
+    background-color: #262335 ;
+    font-family: 'Raleway' , sans-serif ;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5rem 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .proyecto{
+        padding: 5rem 5rem;
+        
+    }
+    
+    
+  
+}

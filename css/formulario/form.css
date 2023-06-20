@@ -1,0 +1,48 @@
+.form{
+    background-color: #2F2A40 ;
+    margin:auto;
+   width: 90%;
+    
+    font-family: 'Raleway' , sans-serif ;
+    border-radius: 10px;
+    
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+
+}
+
+.form button{
+    align-self: center;
+    cursor: pointer;
+}
+
+@media screen and (min-width:1024px) {
+    
+  
+    .form{
+        padding: 4.5em 3em;
+        width: 40%;
+    }
+}
+
+.form__input:focus + .form__label,
+.form__input:not(:placeholder-shown) + .form__label{
+    transform: translateY(-12px) scale(.7) ;
+    transform-origin: left top;
+    color: #59E881 ;
+}
+
+
+
+.form__input:focus  ~ .form__line,
+.form__input:not(:placeholder-shown) ~ .form__line{
+    transform: scale(1);
+}
+
+
+.form__input:not(:placeholder-shown){
+    color: #fff  ;
+}
+
